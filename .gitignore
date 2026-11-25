@@ -1,0 +1,7 @@
+data.db
+data.db-*
+*.db.gz
+*.log
+.collect.lock
+__pycache__/
+backups/

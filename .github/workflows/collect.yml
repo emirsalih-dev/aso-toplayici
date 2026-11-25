@@ -1,0 +1,61 @@
+name: collect
+# Gunde 3 kosu (TR 09:07 / 13:07 / 17:07). Her kosu kelimelerin eksigini + en fazla 3000 uygulama detayini ceker;
+# collect.py bugun yapilani atladigi icin 3 kosu ~7000 uygulamanin hepsini kapsar.
+on:
+  schedule:
+    - cron: '7 6 * * *'
+    - cron: '7 10 * * *'
+    - cron: '7 14 * * *'
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'en fazla kac uygulama detayi'
+        default: '3000'
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      TZ: Europe/Istanbul
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install google-play-scraper==1.2.7
+
+      - name: Arsivi indir (en yeni release dosyasi)
+        id: dl
+        run: |
+          f=$(gh release view db --json assets -q '[.assets[].name | select(startswith("data-"))] | sort | last')
+          test -n "$f"
+          gh release download db -p "$f"
+          gunzip -c "$f" > data.db && rm "$f"
+          python3 -c "import sqlite3;assert sqlite3.connect('data.db').execute('PRAGMA quick_check').fetchone()[0]=='ok'"
+
+      - name: Topla
+        # -s INT: collect.py KeyboardInterrupt yolunu kullanip kosuyu kaydeder
+        run: timeout -s INT 290m python3 collect.py collect --limit ${{ inputs.limit || '3000' }} --no-backup || echo "collect cikis kodu $?"
+
+      - name: Arsivi yukle (eskiyi silmeden once yenisi)
+        if: always() && steps.dl.outcome == 'success'
+        run: |
+          python3 -c "import sqlite3;c=sqlite3.connect('data.db');c.execute('PRAGMA wal_checkpoint(TRUNCATE)');c.execute('PRAGMA journal_mode=DELETE');assert c.execute('PRAGMA quick_check').fetchone()[0]=='ok'"
+          f="data-$(date +%Y%m%d-%H%M).db.gz"
+          gzip -9 -c data.db > "$f"
+          gh release upload db "$f"
+          gh release view db --json assets -q '[.assets[].name | select(startswith("data-"))] | sort | .[:-3][]' | while read -r old; do gh release delete-asset db "$old" -y; done
+          python3 collect.py stats | tee ozet.txt
+
+      - name: Durum commit'i (60 gun hareketsizlikte cron kapanmasin)
+        if: always() && steps.dl.outcome == 'success'
+        run: |
+          git config user.name "aso-bot"; git config user.email "aso-bot@users.noreply.github.com"
+          date '+%F %T' > son-kosu.txt
+          git add son-kosu.txt ozet.txt 2>/dev/null; git commit -qm "kosu $(date '+%F %H:%M')" && git push -q || true

@@ -1,0 +1,4 @@
+com.eesydev.zikirmatik3dtesbih
+com.eesydev.sajda
+com.eesydev.fis_takip
+com.eesydev.cigkofte

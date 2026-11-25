@@ -1,0 +1,43 @@
+==============================================================
+ASO ARSIV OZETI   /home/runner/work/aso-toplayici/aso-toplayici/data.db
+==============================================================
+Uygulama (apps)       : 7219
+Enstantane (snapshots): 312930
+Siralama (rankings)   : 248946
+Takip edilen kelime   : 194 (keywords.txt: 194)
+Siralama gun araligi  : 2026-09-04 .. 2026-11-26  (77 gun)
+Enstantane gun arligi : 2026-09-04 .. 2026-11-26  (74 gun)
+DB boyutu             : 159.8 MB
+Olu kayit (atlanan)   : 48
+    2026-11-24  com.etutanak  (E-tutanak)
+    2026-11-23  com.baxolino.bcleaner  (B Cleaner: Telefon Temizleme)
+    2026-11-23  com.fitnessmobileapps.fiilisfitness  (Fiiliksellä)
+    2026-11-23  com.wsdnjk.oerjzxn  (Pixel Awakening)
+    2026-11-22  com.fc.tangle.rope.knot.solve  (Rope Unravel!)
+    2026-11-22  ezan.saati.com  (Ezan Saati)
+    2026-11-20  com.axa.axasagligim.tr  (AXAFit)
+    2026-11-20  com.watertracker.app  (Su Takibi ve Su Hatırlatıcısı)
+    2026-11-19  app.sentryrf  (Casus Dedektörü: AirTag Bul)
+    2026-11-19  com.namazvakitleri.kurankible  (Namaz Vakitleri PRO;KuranKıble)
+    ... +38 tane daha
+--------------------------------------------------------------
+Gun basina siralama satiri (son 7 gun):
+  2026-11-26    5534 satir  194 kelime
+  2026-11-24    5489 satir  194 kelime
+  2026-11-23    5608 satir  194 kelime
+  2026-11-22    5504 satir  194 kelime
+  2026-11-21    5534 satir  194 kelime
+  2026-11-20    5565 satir  194 kelime
+  2026-11-19    5529 satir  194 kelime
+--------------------------------------------------------------
+Son 5 calisma:
+  2026-11-26 00:16:31  bitti   kelime 194/0 hata  uygulama 50/0 hata
+      -> bitis 2026-11-26 00:27:03  [mod=live lang=tr country=tr]
+  2026-11-24 09:07:01  bitti   kelime 194/0 hata  uygulama 7070/2 hata
+      -> bitis 2026-11-24 14:35:44  [mod=live lang=tr country=tr]
+  2026-11-23 20:17:01  bitti   kelime 194/0 hata  uygulama 0/1 hata
+      -> bitis 2026-11-23 20:17:06  [mod=live lang=tr country=tr]
+  2026-11-23 09:07:02  bitti   kelime 194/0 hata  uygulama 6945/4 hata
+      -> bitis 2026-11-23 14:04:15  [mod=live lang=tr country=tr]
+  2026-11-22 20:17:02  bitti   kelime 194/0 hata  uygulama 0/1 hata
+      -> bitis 2026-11-22 20:17:06  [mod=live lang=tr country=tr]

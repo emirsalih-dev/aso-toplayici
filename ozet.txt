@@ -2,13 +2,14 @@
 ASO ARSIV OZETI   /home/runner/work/aso-toplayici/aso-toplayici/data.db
 ==============================================================
 Uygulama (apps)       : 7219
-Enstantane (snapshots): 312930
+Enstantane (snapshots): 315928
 Siralama (rankings)   : 248946
 Takip edilen kelime   : 194 (keywords.txt: 194)
 Siralama gun araligi  : 2026-09-04 .. 2026-11-26  (77 gun)
 Enstantane gun arligi : 2026-09-04 .. 2026-11-26  (74 gun)
-DB boyutu             : 159.8 MB
+DB boyutu             : 160.9 MB
 Olu kayit (atlanan)   : 48
+    2026-11-26  com.ezanvaktiultra.app  (EzanCep: Namaz Vakti & Kıble)
     2026-11-24  com.etutanak  (E-tutanak)
     2026-11-23  com.baxolino.bcleaner  (B Cleaner: Telefon Temizleme)
     2026-11-23  com.fitnessmobileapps.fiilisfitness  (Fiiliksellä)
@@ -18,7 +19,6 @@ Olu kayit (atlanan)   : 48
     2026-11-20  com.axa.axasagligim.tr  (AXAFit)
     2026-11-20  com.watertracker.app  (Su Takibi ve Su Hatırlatıcısı)
     2026-11-19  app.sentryrf  (Casus Dedektörü: AirTag Bul)
-    2026-11-19  com.namazvakitleri.kurankible  (Namaz Vakitleri PRO;KuranKıble)
     ... +38 tane daha
 --------------------------------------------------------------
 Gun basina siralama satiri (son 7 gun):
@@ -31,6 +31,8 @@ Gun basina siralama satiri (son 7 gun):
   2026-11-19    5529 satir  194 kelime
 --------------------------------------------------------------
 Son 5 calisma:
+  2026-11-26 19:46:44  bitti   kelime 194/0 hata  uygulama 2998/2 hata
+      -> bitis 2026-11-26 21:54:45  [mod=live lang=tr country=tr]
   2026-11-26 00:16:31  bitti   kelime 194/0 hata  uygulama 50/0 hata
       -> bitis 2026-11-26 00:27:03  [mod=live lang=tr country=tr]
   2026-11-24 09:07:01  bitti   kelime 194/0 hata  uygulama 7070/2 hata
@@ -39,5 +41,3 @@ Son 5 calisma:
       -> bitis 2026-11-23 20:17:06  [mod=live lang=tr country=tr]
   2026-11-23 09:07:02  bitti   kelime 194/0 hata  uygulama 6945/4 hata
       -> bitis 2026-11-23 14:04:15  [mod=live lang=tr country=tr]
-  2026-11-22 20:17:02  bitti   kelime 194/0 hata  uygulama 0/1 hata
-      -> bitis 2026-11-22 20:17:06  [mod=live lang=tr country=tr]

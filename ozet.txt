@@ -1,36 +1,38 @@
 ==============================================================
 ASO ARSIV OZETI   /home/runner/work/aso-toplayici/aso-toplayici/data.db
 ==============================================================
-Uygulama (apps)       : 7281
-Enstantane (snapshots): 326137
-Siralama (rankings)   : 254358
+Uygulama (apps)       : 7385
+Enstantane (snapshots): 329132
+Siralama (rankings)   : 259734
 Takip edilen kelime   : 194 (keywords.txt: 194)
-Siralama gun araligi  : 2026-09-04 .. 2026-11-27  (78 gun)
-Enstantane gun arligi : 2026-09-04 .. 2026-11-27  (75 gun)
-DB boyutu             : 165.0 MB
-Olu kayit (atlanan)   : 59
+Siralama gun araligi  : 2026-09-04 .. 2026-11-28  (79 gun)
+Enstantane gun arligi : 2026-09-04 .. 2026-11-28  (76 gun)
+DB boyutu             : 167.2 MB
+Olu kayit (atlanan)   : 62
+    2026-11-28  com.basic.kfdt.app  (Basic Loan Calc)
+    2026-11-28  com.binaryscript.simpleinvoiceapp  (Simple Invoice - Fatura)
+    2026-11-28  com.dumanemre.zikirmatik  (Zikirmatik)
+    2026-11-28  com.etermax.similar  (Word Match: Zeka Taşları)
+    2026-11-28  com.kisiselbutce.app  (Gelir Gider Takibi & Bütçe)
     2026-11-27  com.PayPulse  (PayPulse: Ödeme & Fatura Takip)
     2026-11-27  com.easyloan.calc.deppt  (Kolay Kredi Hesaplayıcı)
     2026-11-27  com.etgsv.loan.cacu  (Loan Calculation Plus)
     2026-11-27  com.fxapps.currencyconverter.live  (Currency Converter & Rates)
     2026-11-27  com.lembreteagua.rwbd  (Su Hatırlatıcı – HydroFlow)
-    2026-11-27  com.loan.camee.calulatorx  (Loan Calculator X)
-    2026-11-27  com.marktka.calculatorYou  (Calculator You: Math & Units)
-    2026-11-27  com.sinan.esmaulhusna  (Esmaül Hüsna Pro – Sesli)
-    2026-11-27  com.vp.streetview.livecam.earthmap.gps  (GPS Sokak Görünümü)
-    2026-11-27  it.mypetapp  (Fidòra App)
-    ... +49 tane daha
+    ... +52 tane daha
 --------------------------------------------------------------
 Gun basina siralama satiri (son 7 gun):
+  2026-11-28    5376 satir  194 kelime
   2026-11-27    5412 satir  194 kelime
   2026-11-26    5534 satir  194 kelime
   2026-11-24    5489 satir  194 kelime
   2026-11-23    5608 satir  194 kelime
   2026-11-22    5504 satir  194 kelime
   2026-11-21    5534 satir  194 kelime
-  2026-11-20    5565 satir  194 kelime
 --------------------------------------------------------------
 Son 5 calisma:
+  2026-11-28 01:39:26  bitti   kelime 194/0 hata  uygulama 2995/5 hata
+      -> bitis 2026-11-28 04:55:43  [mod=live lang=tr country=tr]
   2026-11-27 22:26:15  bitti   kelime 194/0 hata  uygulama 1242/7 hata
       -> bitis 2026-11-27 23:18:09  [mod=live lang=tr country=tr]
   2026-11-27 19:31:14  bitti   kelime 194/0 hata  uygulama 2986/14 hata
@@ -39,5 +41,3 @@ Son 5 calisma:
       -> bitis 2026-11-27 04:54:20  [mod=live lang=tr country=tr]
   2026-11-26 22:33:56  bitti   kelime 194/0 hata  uygulama 2991/9 hata
       -> bitis 2026-11-27 00:48:07  [mod=live lang=tr country=tr]
-  2026-11-26 19:46:44  bitti   kelime 194/0 hata  uygulama 2998/2 hata
-      -> bitis 2026-11-26 21:54:45  [mod=live lang=tr country=tr]

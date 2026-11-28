@@ -2,12 +2,12 @@
 ASO ARSIV OZETI   /home/runner/work/aso-toplayici/aso-toplayici/data.db
 ==============================================================
 Uygulama (apps)       : 7385
-Enstantane (snapshots): 332128
+Enstantane (snapshots): 333456
 Siralama (rankings)   : 259734
 Takip edilen kelime   : 194 (keywords.txt: 194)
 Siralama gun araligi  : 2026-09-04 .. 2026-11-28  (79 gun)
 Enstantane gun arligi : 2026-09-04 .. 2026-11-28  (76 gun)
-DB boyutu             : 167.9 MB
+DB boyutu             : 168.3 MB
 Olu kayit (atlanan)   : 62
     2026-11-28  com.basic.kfdt.app  (Basic Loan Calc)
     2026-11-28  com.binaryscript.simpleinvoiceapp  (Simple Invoice - Fatura)
@@ -31,6 +31,8 @@ Gun basina siralama satiri (son 7 gun):
   2026-11-21    5534 satir  194 kelime
 --------------------------------------------------------------
 Son 5 calisma:
+  2026-11-28 21:12:15  bitti   kelime 194/0 hata  uygulama 1328/4 hata
+      -> bitis 2026-11-28 22:08:02  [mod=live lang=tr country=tr]
   2026-11-28 18:25:22  bitti   kelime 194/0 hata  uygulama 2996/4 hata
       -> bitis 2026-11-28 20:28:20  [mod=live lang=tr country=tr]
   2026-11-28 01:39:26  bitti   kelime 194/0 hata  uygulama 2995/5 hata
@@ -39,5 +41,3 @@ Son 5 calisma:
       -> bitis 2026-11-27 23:18:09  [mod=live lang=tr country=tr]
   2026-11-27 19:31:14  bitti   kelime 194/0 hata  uygulama 2986/14 hata
       -> bitis 2026-11-27 21:39:24  [mod=live lang=tr country=tr]
-  2026-11-27 01:56:54  bitti   kelime 194/0 hata  uygulama 2990/10 hata
-      -> bitis 2026-11-27 04:54:20  [mod=live lang=tr country=tr]
